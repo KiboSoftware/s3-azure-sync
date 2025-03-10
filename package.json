@@ -1,0 +1,22 @@
+{
+  "name": "s3-azure-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk-mock": "^5.4.0",
+    "jest": "^29.0.0",
+    "serverless": "^4.7.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.758.0",
+    "@azure/storage-blob": "^12.8.0",
+    "dotenv": "^10.0.0"
+  }
+}
